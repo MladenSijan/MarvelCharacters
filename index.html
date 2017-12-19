@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <title>Marvel Superheroes</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto|Wallpoet" rel="stylesheet">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <div class="heading">
+    <h1>Marvel superheroes</h1>
+    <h2>Find your favorite ones and add them to your collection</h2>
+  </div>
+
+  <div class="container">
+    <form method="get">
+      <label class="appearing_label">Character name</label>
+      <input type="text" name="marvel_char" id="char_search" placeholder="Search here for character name">
+    </form>
+    <div id="content">
+      <div class="search_results" id="search_results">
+        <div class="search_results_wrapper">
+        </div>
+      </div>
+      <div class="bookmarked_chars" id="bookmarked_chars">
+        <div class="bookmarked_chars_wrapper">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/jquery-3.2.1.min.js"></script>
+  <script src="js/CryptoJS/rollups/md5.js"></script>
+  <script src="js/CryptoJS/components/enc-base64-min.js"></script>
+  <script src="js/marvel-characters.js"></script>
+  <script src="js/visual.js"></script>
+</body>
+
+</html>
