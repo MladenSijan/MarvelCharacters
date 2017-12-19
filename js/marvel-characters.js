@@ -175,7 +175,6 @@ $(document).ready(function() {
     else {
       $.ajax({
         type: 'GET',
-        // url: 'marvelJSONeg.json',
         url: 'https://gateway.marvel.com:443/v1/public/characters',
         data: {
           nameStartsWith: inputValue,
